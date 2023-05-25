@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+       <h3>Student Enrolement System</h3>
+   </header>
+    <section class="home" id ="home">
+        <div class="home-content">
+            <h2>Enrole Here..</h2>
+            <div id="myForm">
+                <div class ="input-box"><label>Full Name :</label><input type="text" name="name" id="name" placeholder="Full Name" required></div>
+                <div class ="input-box"> <label>Email ID :</label><input type="email" id="email" name="email" placeholder="Email Address" required></div>
+                <div class ="input-box"><label>Contact No.:</label><input type="number" id="num" name="contact" placeholder="Mobile Number" required></div>
+                <div class ="input-box"><label>linkedin url:</label><input type="text" id="url" name="email" placeholder="linkedin url" required></div>
+                <div class ="check-box">
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="Male" required>Male
+                    <input type="radio" id="female" name="gender" value="Female" required>Female
+                    <input type="radio" id="other" name="gender" value="Other" required>Other
+                </div>
+                <br>
+                <div  class="check-box"><br><label>Skills :</label><br>
+                    
+                    <input type="checkbox" id="box1" name="Skill1" value="Java" required> Java
+                    <input type="checkbox" id="box2" name="Skill2" value="Python" required> Python
+                    <input type="checkbox" id="box3" name="Skill3" value="C++" required> C++
+                </div>
+                <br><button class="btn" onclick="enrole()">Enrole</button>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="home-img">
+            <h2>Enroleed Students...</h2>
+            <div><div class="dec1">Description</div>
+            <div class="img1">Image</div></div>
+            <div class="list" id="list">
+                 <div class="dec">
+                    <h2>Piyush Khandelwal</h2>
+                    <h3>piyushkhadelwal9950@gmail.com</h3>
+                    <h3>7597014661</h3>
+                    <h3>https://www.linkedin.com/in/piyush-khandelwal-ba4604236</h3>
+                    <h3>Male</h3>
+                    <h3>Java,Python</h3>
+                </div>
+                <div class="img">
+                    <span><img src="image/Male.png" alt=""></span>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <script src="indx.js"></script>
+</body>
+</html>
